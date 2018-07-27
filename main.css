@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin:0;
+}
+header{
+    box-shadow: 1px 2px rgb(192, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    padding: 10px 20px;
+    display:inline-block;
+
+}
+.logo > img{
+    vertical-align:middle;
+}
+.logo > h2{
+    color: blue;
+    display: inline-block;
+}
+.avengers{
+    color:red;
+}
+.logo > i{
+    display: inline-block;
+    font-size: 14px;
+}
+.becomeahost{
+    /* display: inline-block; */
+    float: right;
+    padding-top: 10px;
+    margin-right: 20px;
+
+}
+.becomeahost {
+    clear: right;
+}
+header{
+    clear: right;
+}
+.becomeahost > a{
+    margin-right: 20px;
+}
+.becomeahost > button{
+    padding: 8px;
+    margin-right: 20px;
+    color: orangered;
+    border: 2px solid  orangered;
+    background-color: white;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+body{
+    clear: right;
+}
+.left-section{
+    display: inline-block;
+    background-color:rgb(253, 253, 253);
+    width: 25%;
+    margin:10px 0;
+    border-bottom: 1px solid gray;
+    vertical-align: top;
+    
+}
+.filterheading{
+    background-color:rgb(253, 253, 253);
+    width: 100%;
+    margin:10px 0;
+    border-bottom: 1px solid gray;
+   
+}
+.filterheading > h3{
+    display: inline-block;
+    padding: 10px 40px;
+    font-weight: bold;
+
+}
+
+.reset{
+    display: inline-block;
+    font-size: 15px;
+    color:orangered;
+    margin-right:20px;
+    margin-left: 80px;
+    padding-top:10px;
+    font-weight: bold;
+}
+.reset >i{
+    font-size:15px;
+}
+.filterheading {
+    clear: right;
+}
+.slidecontainer{
+    width: 100%;
+    padding:0 50px;
+}
+.price{
+    background-color:rgb(253, 253, 253);
+    width: 100%;
+
+}
+.price > h3{
+    padding: 20px 40px;    
+}
+.price > img{
+    padding: 0 20px;
+}
+.dollarbox{
+    padding: 10px 40px;
+    width: 100%;
+}
+.placeholders{
+    display: inline-block;
+    width:100px;
+    padding: 10px 0;
+    font-size: 15px;
+    margin-right:15px;
+    text-align: center;
+}
+.container {
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    padding:10px 0px;
+    cursor: pointer;
+    padding-left: 75px;
+}
+.container input{
+    opacity: 0;
+    cursor: pointer;
+}
+.checkbox{
+    display: block;
+    position: absolute;
+    top:0;
+     left:30px;
+    height:25px;
+    width:25px;
+    margin: 0 10px;
+    cursor: pointer;
+  background-color:#bbbb;
+}
+.container:hover input ~ .checkbox{
+    background-color:#eee ;
+}
+.container input:checked ~ .checkbox {
+    background-color:#2196F3 ;
+}
+.checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkbox:after {
+    display: block;
+}
+.container .checkbox:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;   
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.coupleschoice  > span{
+   font-weight: bold;
+   margin:0;
+}
+.rating{
+    padding: 10px 40px; 
+
+}
+.rating > i{
+    color:orangered;
+    margin: 10px 0;
+}
+.rating > .black{
+    color: black
+}
+.amenities > h3{
+    padding: 10px 40px; 
+}
+.accessories{
+   padding:10px 40px;
+}
+.accessories > .tvac{
+    margin: 7px 0;
+    width: 10px;
+}
+.amenities > p {
+    color: orangered;
+    padding: 0 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.language > h3{
+    padding: 10px 40px; 
+}
+.language > button{
+    margin:20px 50px;
+    padding: 10px 40px;
+    background-color:rgb(253, 253, 253);
+    border: 1px solid gray;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+form{
+    display: inline-block;
+    margin-left: 20px;
+}
+form input{
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.main-class{
+    display: inline-block;
+    margin-top:2px;    
+    background-color: rgb(240, 240, 240);
+    width:1007px;
+    height:900px;
+    vertical-align: top;
+    
+}
+.main-class > h1{
+padding: 20px 20px;
+}
+.main-class > p{
+    border: 0.5px solid gray;
+    margin-left: 20px;
+    padding: 10px 0;
+    padding-left: 25px;
+    font-size: 11px;
+    width: 200px;
+    font-weight: bold;
+    background-color: white;
+    display: inline-block;
+
+}
+p > .ions{
+    color:orangered;
+    font-size: 14px;
+    
+}
+.photo-divison{
+    background-color: rgb(216, 216, 216);
+    margin: 0 auto;
+    margin-top: 20px;
+    width:100%;
+
+
+}
+.rosefeild{
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    width: 95%;
+    padding: 10px 5px;
+  
+}
+.room-photo{
+   margin: 10px 10px;
+   display: inline-block;
+}
+.heritage{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+
+}
+
+.heritage > i{
+    font-size: 16px;
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+.heritage > .red{
+    vertical-align: top;
+    padding-top: 5px;
+    color: orangered;
+    font-size: 15px;
+}
+.heritage > .black {
+    padding-top: 5px;
+    color: black;
+    font-size: 14px;
+}
+.heritage > p{
+    font-size: 12px;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+.heritage > button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:orangered;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.heritage > span{
+    font-size: 13px;
+    vertical-align: bottom;
+    color: gray;
+
+}    
+.add-fav{
+    vertical-align: top;
+}
+
+.numbers{
+  float: right;
+   margin-left: 40px;
+}
+.extralarge{
+      display: inline-block;
+      font-size:40px;
+}
+.large{
+    font-size:30px;
+}
+.medium{
+    
+    text-decoration: line-through; 
+}
+footer{
+    background-color: rgb(42, 27, 56);
+    width: 100%;
+    /* height: 300px; */
+}
+footer > ul{
+    display: inline-block;
+    color:rgb(224, 216, 216);
+    margin:60px 60px;
+
+}
+.lists{
+padding-bottom: 10px;
+list-style-type: none;
+}
+
+
+
+
